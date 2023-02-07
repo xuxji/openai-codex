@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch('http://localhost:8080/', {
+  const response = await fetch('https://openai-codex-server.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
